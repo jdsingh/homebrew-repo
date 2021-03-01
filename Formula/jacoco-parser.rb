@@ -1,9 +1,9 @@
 class JacocoParser < Formula
   desc "Utility to parse JaCoCo xml reports"
   homepage "https://github.com/jdsingh/jacoco-parser"
-  url "https://github.com/jdsingh/jacoco-parser/releases/download/0.0.1/jacoco-parser-0.0.1.zip"
-  version "0.0.1"
-  sha256 "d04167e826526c622503bf2c7ebc96c3dddd557ecac2e1d8ae2feb2952d79832"
+  url "https://github.com/jdsingh/jacoco-parser/releases/download/0.0.2/jacoco-parser-0.0.2.zip"
+  version "0.0.2"
+  sha256 "e0080520b4da90c6bca1b73b6801b9c783bc20f42ed285de49dac227be25c9cd"
 
   bottle :unneeded
 
