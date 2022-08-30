@@ -5,8 +5,6 @@ class JacocoParser < Formula
   version "1.0.0"
   sha256 "7efa7830238cc01ac93e88f026583e5469ca7c5533af099b9d33c98b8d68253d"
 
-  bottle :unneeded
-
   depends_on "openjdk"
 
   def install
