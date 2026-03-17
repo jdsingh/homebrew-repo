@@ -1,12 +1,12 @@
 class S3sync < Formula
   desc "macOS CLI + launchd daemon that watches local folders and syncs to AWS S3"
   homepage "https://github.com/jdsingh/s3sync"
-  url "https://github.com/jdsingh/s3sync/releases/download/v0.1.3/s3sync-0.1.3-macos-arm64.tar.gz"
-  sha256 "719592a0f31c0e7488fe56205e17a0a89fd5e2491291c8c4cfdeb9d6e868a5a8"
-  version "0.1.3"
+  url "https://github.com/jdsingh/s3sync/releases/download/v0.1.4/s3sync-0.1.4-macos-arm64.tar.gz"
+  sha256 "7476564e8f2c3680b91528f3aba4a289f9047ab4d5a6cebbc3e68205e6f99e00"
+  version "0.1.4"
 
   def install
-    libexec.install Dir["s3sync/*"]
+    libexec.install Dir["*"]
     bin.write_exec_script libexec/"s3sync"
   end
 
